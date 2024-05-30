@@ -1,0 +1,102 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0f1e7;
+}
+
+.loginForm {
+  width: 50em;
+  background-color: white;
+  border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+  .loginForm {
+    width: 100%;
+    width: 25em;
+  }
+  .row {
+    gap: var(--spacing-unit) !important;
+    flex-direction: column;
+  }
+}
+
+.outer {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.row {
+  display: flex;
+  gap: 1em;
+  padding-top: var(--spacing-unit);
+}
+
+.rowInner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-bottom: 0em;
+}
+
+.label {
+  padding-bottom: var(--label-padding-bottom);
+}
+
+.input {
+  height: 3.5em;
+  border-radius: 10px;
+  border: var(--border-thickness) var(--color-green);
+}
+
+.labelRadio {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  flex: 1;
+  border: var(--border-thickness2) var(--color-green);
+  border-radius: 10px;
+}
+
+.radioButtonSpan {
+  padding-left: 0.2em;
+}
+
+.radioButton {
+  width: var(--radio-button-size);
+  height: var(--radio-button-size);
+}
+
+.supportLabel {
+  padding-left: 0.5em;
+}
+
+.textarea {
+  border: var(--border-thickness) var(--color-green);
+  border-radius: 10px;
+  resize: none;
+}
+
+.checkBoxLabel {
+  display: flex;
+  align-items: center;
+}
+
+.checkBox {
+  width: var(--radio-button-size);
+  height: var(--radio-button-size);
+}
+
+.submit {
+  margin-top: 2.5em;
+  width: 100%;
+  height: 4em;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--color-green);
+}

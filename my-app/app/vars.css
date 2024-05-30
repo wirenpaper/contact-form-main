@@ -1,0 +1,8 @@
+:root {
+  --spacing-unit: 1.5em;
+  --label-padding-bottom: 0.5em;
+  --radio-button-size: 1.5em;
+  --color-green: #0C7D69;
+  --border-thickness: .1em solid;
+  --border-thickness2: .05em solid;
+}
