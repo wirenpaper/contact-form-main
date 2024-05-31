@@ -1,8 +1,13 @@
+html,
+body {
+  margin: 0;
+}
+
 :root {
   --spacing-unit: 1.5em;
   --label-padding-bottom: 0.5em;
   --radio-button-size: 1.5em;
-  --color-green: #0C7D69;
-  --border-thickness: .1em solid;
-  --border-thickness2: .05em solid;
+  --color-green: #0c7d69;
+  --border-thickness: 0.1em solid;
+  --border-thickness2: 0.05em solid;
 }
