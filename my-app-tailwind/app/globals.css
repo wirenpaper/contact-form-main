@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #E0F1E7;
+  min-width: 640px;
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  input {
+    @apply border-2 border-green-700 h-12 rounded-xl;
+  }
+}
